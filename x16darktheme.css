@@ -1,0 +1,98 @@
+body { background-color: rgb(15, 15, 15); }
+
+/*          *\
+* NAVIGATION *
+\*          */
+
+/* links */
+.ipsBreadcrumb > ul > li > a, #elCopyright_userLine, .ipsBreadcrumb [data-action="defaultStream"], .ipsPager_type,
+.ipsBreadcrumb [data-action="markSiteRead"], #ipsLayout_mainArea a
+{ 
+    color: rgb(220, 220, 220);
+    font-weight: lighter !important;
+}
+
+/* active topic */
+.ipsBreadcrumb > ul > li, .ipsType_pageTitle { color: white; }
+
+/* author information */
+span.ipsType_normal, .ipsType_normal > span.ipsType_light 
+{ 
+    color: rgb(200, 225, 230);
+    font-weight: bold;
+}
+
+/* buttons */
+.ipsButton.ipsButton_medium.ipsButton_fullWidth { background-color: rgb(25, 25, 25); }
+
+/*          *\
+* PAGINATION *
+\*          */
+
+/* active page */
+.ipsPagination_page.ipsPagination_active > a 
+{ 
+    color: rgb(200, 225, 255) !important; 
+    background-color: rgb(16, 128, 227) !important;
+}
+
+/* other pages */
+.ipsPagination > a, .ipsPagination_prev > a, .ipsPagination_first > a, .ipsPagination_page > a, .ipsPagination_next > a,
+.ipsPagination_last > a
+{ background-color: rgb(25, 25, 25) !important; }
+
+/*          *\
+*    PAGE    * 
+\*          */
+
+/* user post*/
+.ipsBox:not(.ipsBox_transparent):not(.ipsModerated), .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone.ipsComment_highlighted, .cTopicPostArea.ipsAreaBackground.ipsPad.ipsSpacer_top
+{ 
+    background-color: rgb(30, 30, 30); 
+    border-color: rgb(20, 20, 20);
+}
+
+/* text in post, post count, group */
+.ipsType_richText, .cAuthorPane_info.ipsList_reset > .ipsType_light, .ipsColumns.ipsColumns_noSpacing { color: darkgrey; }
+
+/* admin post */
+.ipsComment_highlighted:not(.ipsBox_transparent):not(.ipsModerated):not(.ipsComment_selected):not(.ipsComment_popular)
+{ box-shadow: 0px 2px 10px rgba(113, 148, 208, .4); }
+
+/* username */
+strong > a.ipsType_break { font-size: 12pt; }
+
+/* quote */
+.ipsQuote { background-color: rgb(35, 35, 40); }
+
+/* quote "title" */
+.ipsQuote_citation.ipsQuote_open 
+{ 
+    background-color: rgb(30, 30, 35); 
+    color: white;
+}
+
+/*          *\
+*    HOME    * 
+\*          */
+
+/* welcome */
+strong[style="background-color:#fcfcfc;color:#000000;font-size:14px;"], 
+h1[style="background-color:#fcfcfc;color:#000000;font-size:28px;"],
+hr[style="background-color:#fcfcfc;border-color:rgba(0,0,0,.05);border-style:solid;border-width:2px 0px 0px;color:#000000;font-size:13px;padding:0px;"]
+{ 
+    background-color: transparent !important;
+    color: skyblue !important;
+}
+
+/*zebra pattern*/
+.ipsDataList_zebra { background-color: rgb(30, 30, 30); }
+
+.ipsDataList.ipsDataList_zebra .ipsDataItem:not(.ipsDataItem_selected):not(.ipsModerated):not(.ipsDataItem_new):not(.ipsDataItem_success):not(.ipsDataItem_warning):not(.ipsDataItem_error):not(.ipsDataItem_info):not(.ipsDataItem_status):nth-child(2n)
+{ background-color: rgb(20, 20, 20); }
+
+/* topic statistics */
+.ipsDataItem_stats_type, .ipsDataItem_stats_number { color: rgb(210, 210, 220); }
+
+/* button bar */
+.ipsButtonBar { background-color: rgb(10, 10, 10); }
